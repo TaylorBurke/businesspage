@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import Scrollchor from "react-scrollchor";
 import "./App.css";
-import GoogleMapReact from 'google-map-react';
-import Navbar from './Navbar'
+
 
 
 class App extends Component {
@@ -61,7 +60,7 @@ class App extends Component {
 
           <div class="column">
             
-              <p className='columnp' style={{fontSize: '30px', color:'rgb(154, 89, 39)'}}>Bronze Package</p>
+              <p className='columnp' style={{color: 'rgb(121, 85, 72)'}}>Bronze Package</p>
               <ul class="price">
               <li class="header">Basic</li>
               <li class="grey">$ 9.99 / year</li>
@@ -75,7 +74,7 @@ class App extends Component {
 
              <div class="column">
             
-            <p style={{fontSize: '30px', color: 'silver'}}>Silver Package</p>
+            <p className='columnp' style={{color: 'rgb(189, 175, 170)'}}>Silver Package</p>
               <ul class="price">
               <li class="header">Basic</li>
               <li class="grey">$ 9.99 / year</li>
@@ -90,7 +89,7 @@ class App extends Component {
              <div class="column">
 
             
-              <p style={{fontSize: '30px', color:'gold'}}>Gold Package</p>
+              <p className='columnp' style={{color: '#FFEB3B'}}>Gold Package</p>
               <ul class="price">
               <li class="header">Basic</li>
               <li class="grey">$ 9.99 / year</li>
